@@ -10,6 +10,10 @@ body{
 #topDisplay{
     margin-top: 2rem;   
 }
+#currentWeather{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
 .btmCity{
     margin:2px;
     width:100px;

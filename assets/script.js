@@ -158,7 +158,7 @@ $(document).ready(function () {
     localStorage.setItem("cities", JSON.stringify(cityHistoryArray));
     //Delete child element in cityList, for every page load, iterate over the localStorage and generate the search histery again.
     $(".input-group").empty();
-
+    // localStorage.clear();
     cityHistoryArray.forEach(function (city) {
       var newDiv = $("<button>")
         .addClass("btmCity")
