@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-primary justify-content-center">
+      <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
+    </nav>
+  </header>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <aside class="col-2 float-left">
+        <div class="row" id="topDisplay">
+          <div class="search col-12 p-1">
+            <form>
+              <label for="cityInput" class="mb-3">Search for a City:</label>
+              <input type="text" class="form-control mb-3" id="cityInput" placeholder="Fredericton" />
+              <button type="submit" class="btn btn-primary mb-1 w-100" id="searchBtn">
+                Search
+              </button>
+            </form>
+            <hr>
+            <div class="cityList col-9 input-group mb-3 w-100"></div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="col-10 p-5">
+        <div class="today col-sm-12 col-md-12 col-lg-12 topDisplay" id="currentWeather"></div>
+        <label id="forecastLabel">5-Day Forecast:</label>
+        <div class="row col-sm-12 col-md-10 col-lg-12 p-2" id="forecast"></div>
+      </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
+    <script defer src="assets/script.js"></script>
+</body>
+
+</html>
