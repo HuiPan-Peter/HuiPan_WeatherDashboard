@@ -6,7 +6,6 @@ Third-party Plug-ins: jquery-3.4.1.min.js; dayjs-1.11.3; moment.js-2.29.1; boots
 Third-party API: https://api.openweathermap.org/data/2.5/weather & https://api.openweathermap.org/data/2.5/onecall; 
 Weather Condition Icon: https://openweathermap.org/img/wn/
 Deployment Platform: GitHub;
-Special Feature: Use HTML custom data-* attributes to allocate each textarea with a unique time ID
 ```
 ## User Story
 ```
