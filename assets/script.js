@@ -2,7 +2,7 @@
 $(document).ready(function () {
   var cityHistoryArray = [];
   var storeCities = localStorage.getItem("cities");
-  var APIKey = "485a30f7b8cebea0111006986b00bf18";
+  var APIKey = "8b9c973be8ff8777178ef11119ab4c94";
   
   if (storeCities) {
     cityHistoryArray = JSON.parse(storeCities);
